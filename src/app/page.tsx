@@ -47,7 +47,15 @@ export default function Home() {
     </main>
   );
 
-  function SocialLink({ href, icon, label }) {
+  function SocialLink({
+    href,
+    icon,
+    label,
+  }: {
+    href: string;
+    icon: JSX.Element;
+    label: string;
+  }) {
     return (
       <Link href={href}>
         {icon}
