@@ -4,58 +4,40 @@ import { JSX, SVGProps } from "react";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-4 sm:p-8 md:p-12 lg:p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none"></div>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+      <div className="relative flex place-items-center before:absolute before:h-[200px] before:w-full sm:before:w-[300px] sm:before:h-[250px] md:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[120px] after:w-full sm:after:w-[180px] sm:after:h-[150px] md:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[240px] after:lg:h-[90px] z-[-1]">
         <Image
           // margin right 20px
-          className="mr-5"
+          className="mr-3 sm:mr-5 md:mr-7"
           src="/logo.png"
           alt="BlockTrade Logo"
           width={180}
           height={37}
           priority
         />
-        <span className="text-8xl text-transparent bg-clip-text bg-gradient-to-br dark:from-sky-100 dark:to-white">
+        <span className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl text-transparent bg-clip-text bg-gradient-to-br dark:from-sky-100 dark:to-white">
           Block
         </span>
-        <span className="text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-br dark:from-sky-100 dark:to-white">
+        <span className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-br dark:from-sky-100 dark:to-white">
           Trade
         </span>
       </div>
 
       <div className="lg:w-full lg:mb-0">
-        <footer className="mt-auto pt-10">
-          <div className="flex items-center justify-center gap-4 px-4 text-center md:gap-6 md:px-6 lg:gap-10">
-            <div className="flex flex-1 max-w-sm space-x-4 justify-center">
-              <Link
-                className="flex h-8 items-center rounded-md hover:opacity-90"
-                href="#"
-              >
-                <TwitterIcon className="h-6 w-6" />
-                <span className="sr-only">Twitter</span>
-              </Link>
-              <Link
-                className="flex h-8 items-center rounded-md hover:opacity-90"
-                href="#"
-              >
-                <GithubIcon className="h-6 w-6" />
-                <span className="sr-only">GitHub</span>
-              </Link>
-              <Link
-                className="flex h-8 items-center rounded-md hover:opacity-90"
-                href="#"
-              >
-                <YoutubeIcon className="h-6 w-6" />
-                <span className="sr-only">YouTube</span>
-              </Link>
+        <footer className="mt-auto pt-6 sm:pt-8 md:pt-10">
+          <div className="flex items-center justify-center gap-2 sm:gap-4 px-4 text-center md:gap-6 md:px-6 lg:gap-10">
+            <div className="flex flex-1 max-w-sm space-x-2 sm:space-x-4 justify-center">
+              <SocialLink href="#" icon={<TwitterIcon />} label="Twitter" />
+              <SocialLink href="#" icon={<GithubIcon />} label="GitHub" />
+              <SocialLink href="#" icon={<YoutubeIcon />} label="YouTube" />
             </div>
           </div>
-          <div className="flex items-center justify-center gap-4 px-4 py-2 text-center md:gap-6 md:px-6 lg:gap-10">
-            <p className="text-sm text-gray-500 dark:text-gray-400">
+          <div className="flex items-center justify-center gap-2 sm:gap-4 px-4 py-2 text-center md:gap-6 md:px-6 lg:gap-10">
+            <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">
               {/* get todays date */}
               &copy; {new Date().getFullYear()} BlocktradeLabs
             </p>
@@ -64,6 +46,16 @@ export default function Home() {
       </div>
     </main>
   );
+
+  function SocialLink({ href, icon, label }) {
+    return (
+      <Link href={href}>
+        {icon}
+        <span className="sr-only">{label}</span>
+      </Link>
+    );
+  }
+
   function GithubIcon(
     props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>
   ) {
