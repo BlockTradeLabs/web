@@ -1,0 +1,13 @@
+.desktop {
+  display: none;
+}
+
+@media all and (min-width:992px) {
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+}

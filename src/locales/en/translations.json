@@ -1,0 +1,250 @@
+{
+  "shared": {
+    "header": {
+      "btnJoin": "join now",
+      "navList": {
+        "home": "home",
+        "about": "about",
+        "blogs": "blogs",
+        "services": "services",
+        "contact": "contact"
+      },
+      "subNavList": {
+        "aboutUs": "about us",
+        "team": "team",
+        "price": "price"
+      }
+    }
+  },
+  "home": {
+    "intro": {
+      "title": "invest your money with",
+      "titleSpan": "higher return",
+      "description": "Anyone can invest money to different currency to increase their earnings by the help of Bitrader through online.",
+      "btnStart": "get started",
+      "btnWatch": "watch video",
+      "socialTitle": "follow us"
+    },
+    "about": {
+      "thumbTitleTop": " years",
+      "thumbDescriptionTop": "consulting experience",
+      "thumbTitleBottom": "k+",
+      "thumbDescriptionBottom": "satisfied customers",
+      "contentTitle": " unless miss the opportunity",
+      "contentTitleSpan": "meet our company",
+      "contentDescription": "Hey there! So glad you stopped by to Meet Our Company. Don't miss out on this opportunity to learn about what we do and the amazing team that makes it all happen! Our company is all about creating innovative solutions and providing top-notch services to our clients. From start to finish, we're dedicated to delivering results that exceed expectations.",
+      "btnMore": "explore more"
+    },
+    "feature": {
+      "contentTitleSpan": "benefits ",
+      "contentTitle": "we offer",
+      "contentDescription": "Unlock the full potential of our product with our amazing features and top-notch.",
+      "contentNavList": {
+        "navItem1": "Lending Money For Investment Of Your New Projects",
+        "navItem2": "More Security And Control Over Money From The Rest",
+        "navItem3": "Mobile Payment Is More Flexible And Easy For All Investors",
+        "navItem4": "All Transaction Is Kept Free For The Member Of Pro Traders"
+      },
+      "thumbDescription1": "Interest Rate For Loan",
+      "thumbDescription2": "Available for loan"
+    },
+    "service": {
+      "titleSpan": "services",
+      "title": " we offer",
+      "description": "We offer the best services around - from installations to repairs, maintenance, and more!",
+      "serviceList": {
+        "strategy consulting": {
+          "title": "strategy consulting",
+          "description": "A social assistant that's flexible can accommodate your schedule and needs, making life easier"
+        },
+        "financial advisory": {
+          "title": "financial advisory",
+          "description": "Modules transform smart trading by automating processes and improving decision-making."
+        },
+        "management": {
+          "title": "management",
+          "description": "There, it's me, your friendly neighborhood reporter's news analyst processes and improving"
+        },
+        "supply optimization": {
+          "title": "supply optimization",
+          "description": "Hey, have you checked out that new cryptocurrency platform? It's pretty cool and easy to use!"
+        },
+        "HR consulting": {
+          "title": "HR consulting",
+          "description": "Hey guys, just a quick update on exchange orders. There have been some changes currency!"
+        },
+        "marketing consulting": {
+          "title": "marketing consulting",
+          "description": "Hey! Just wanted to let you know that the price notification module processes is nowlive!"
+        }
+      }
+    },
+    "roadmap": {
+      "title": "product ",
+      "titleSpan": "roadmap",
+      "description": "A product roadmap shows the path ahead, helps teams plan, and guides the delivery of the product.",
+      "roadmapList": {
+        "project research": {
+          "title": "project research",
+          "order": "p1",
+          "description": "Project research is the backbone of any successful project. It involves gathering information, setting objectives, and analyzing data to ensure the project is achievable. Without proper research, projects can fail due to lack of knowledge."
+        },
+        "framing idea": {
+          "title": "framing idea",
+          "order": "p2",
+          "description": "Hey there! Just wanted to throw out a framing idea for our upcoming project. Let's start with the big picture and then work our way down to the details. This way we ensure our vision stays on track while also ironing out."
+        },
+        "design first draft": {
+          "title": "design first draft",
+          "order": "p3",
+          "description": "Hey guys, just wanted to share my design first draft! I went for a minimalist look with a pop of color. What do you think? Open to any suggestions or feedback. Can't wait to see how this turns out over all kind of success!"
+        },
+        "final design": {
+          "title": "final design",
+          "order": "p4",
+          "description": "So after lots of reiterations, and endless tweaking, we finally landed on the final design. It's slick, it's modern, and it perfectly captures the essence of what we were aiming for. We couldn't be more excited to launch it!"
+        },
+        "project development": {
+          "title": "project development",
+          "order": "p5",
+          "description": "So we're deep in project development here, and things are coming along nicely. We've got a solid plan in place and our team is firing on all cylinders. There's still work to be done, but we're excited about what we're building."
+        },
+        "launch project": {
+          "title": "launch project",
+          "order": "p6",
+          "description": "Alright folks, it's time to get this project off the ground! We've been talking about it for weeks, and now it's time to launch. We've got all the pieces in place, so let's get to work and make this thing happen!"
+        }
+      }
+    },
+    "pricing": {
+      "titleLeft": "our ",
+      "titleSpan": "pricing ",
+      "titleRight": "plan",
+      "description": "We offer the best pricings around - from installations to repairs, maintenance, and more!",
+      "planTitleSpan": "monthly",
+      "planList": {
+        "basic": {
+          "title": "basic",
+          "offerList": [
+            "weekly online meeting",
+            "unlimited learning access",
+            "24/7 technical support",
+            "personal training"
+          ]
+        },
+        "standard": {
+          "title": "standard",
+          "offerList": [
+            "weekly online meeting",
+            "unlimited learning access",
+            "24/7 technical support",
+            "personal training",
+            "business analysis"
+          ]
+        },
+        "premium": {
+          "title": "premium",
+          "offerList": [
+            "with all standard features",
+            "unlimited learning access",
+            "24/7 technical support",
+            "personal training"
+          ]
+        }
+      },
+      "btnChoose": "choose plan"
+    },
+    "team": {
+      "title": "meet our ",
+      "titleSpan": "advisers",
+      "description": "Hey everyone, meet our amazing advisers! They're here to help and guide us through anything.",
+      "memberList": {
+        "dianne russell": {
+          "name": "dianne russell",
+          "branch": "trade captain"
+        },
+        "theresa webb": {
+          "name": "theresa webb",
+          "branch": "strategic advisor"
+        },
+        "courtney henry": {
+          "name": "courtney henry",
+          "branch": "management consultant"
+        },
+        "albert flores": {
+          "name": "albert flores",
+          "branch": "development specialist"
+        },
+        "darrell steward": {
+          "name": "darrell steward",
+          "branch": "growth strategist"
+        },
+        "wade warren": {
+          "name": "wade warren",
+          "branch": "trade consultant"
+        },
+        "cody fisher": {
+          "name": "cody fisher",
+          "branch": "HR consultant"
+        },
+        "bessie cooper": {
+          "name": "bessie cooper",
+          "branch": "financial advisor"
+        }
+      },
+      "btnMore": "view more"
+    },
+    "blogs": {
+      "title": "for pro traders",
+      "titleSpan": "articles ",
+      "description": "Hey there pro traders, check out these articles with tips to take your trading game to the next level!",
+      "slides": {
+        "trading market": {
+          "meta": "trading market",
+          "title": "hedge funds work?",
+          "description": "To cater to your individual trading preferences, we offer a variety of order types, including market.",
+          "author": "abhivibha kanmani",
+          "date": "20/05/2024"
+        },
+        "investment": {
+          "meta": "investment",
+          "title": "options trading business?",
+          "description": "Security is our top priority, and we employ robust measures to ensure the safety of your funds.",
+          "author": "hulya aydin",
+          "date": "12/07/2024"
+        },
+        "forex trading": {
+          "meta": "forex trading",
+          "title": "swing trading definition",
+          "description": "Our platform is not only about trading—it's also a hub for knowledge and learning. We provide resources. Our platform is not only about trading—it's also a hub for knowledge and learning. We provide resources.",
+          "author": "vasha gueye",
+          "date": "20/06/2024"
+        }
+      },
+      "btnMore": "view more"
+    },
+    "testimonial": {
+      "title": "connect with ",
+      "titleSpan": "our clients",
+      "description": "We love connecting with our clients to hear about their experiences and how we can improve.",
+      "slides": {
+        "guy hawkins": {
+          "title": "trade boss",
+          "description": "In the above testimonial, a customer named Jeanine shares her experience with Briogeo’s products. While the post is scattered with too many product mentions, it takes full advantage of its real estate by allowing the writer to tell",
+          "author": "guy hawkins"
+        },
+        "belal hossain": {
+          "title": "trade genius",
+          "description": "The above testimonial is about Martha Chumo, who taught herself to code in one summer. This testimonial example works because it allows prospective customers to see themselves in Codeacademy’s current customer base.",
+          "author": "belal hossain"
+        },
+        "mobarok hossain": {
+          "title": "trade master",
+          "description": "The above testimonial is about Martha Chumo, who taught herself to code in one summer. This testimonial example works because it allows prospective customers to see themselves in Codeacademy’s current customer base.",
+          "author": "mobarok hossain"
+        }
+      },
+      "btnMore": "view more"
+    }
+  }
+}
