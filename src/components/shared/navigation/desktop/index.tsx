@@ -29,7 +29,10 @@ const DesktopNavigation = () => {
               <i className="bi bi-chevron-down"></i>
             </span>
           ) : (
-            <NavLink to={item.to}>
+            <NavLink
+              to={item.to}
+              target={item.to.substring(0, 4) == "http" ? "_blank" : ""}
+            >
               {t(`shared.header.navList.${item.label}`)}
             </NavLink>
           )}

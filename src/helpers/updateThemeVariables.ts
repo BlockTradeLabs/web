@@ -25,7 +25,7 @@ export const updateThemeVariables = (theme: string) => {
     "--bg-shape-color-trans-2": "rgba(255,255,255,0.04)",
     "--border-color-11": "rgba(255,255,255,0.1)",
     "--text-color-4": "#B0B3BF",
-    "--bg-team-content": "rgba(0, 21, 15, 0.8)",
+    "--bg-team-content": "#3D516F",
     "--bg-shape-color": "rgba(213,229,249,0.08)",
     "--bg-shape-color-trans": "rgba(255,255,255,0.02)",
   };
@@ -54,7 +54,7 @@ export const updateThemeVariables = (theme: string) => {
     "--bg-shape-color-trans-2": "rgba(255,255,255,0.22)",
     "--border-color-11": "#E6E6E6",
     "--text-color-4": "#B0B3BF",
-    "--bg-team-content": "rgba(255, 255, 255, 0.8)",
+    "--bg-team-content": "#3D516F",
     "--bg-shape-color": "#b8cfeb",
     "--bg-shape-color-trans": "rgba(255,255,255,0.22)",
   };

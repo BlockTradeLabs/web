@@ -5,13 +5,12 @@ import ResetPassword from "./auth/resetPassword";
 import About from "./main/about";
 import Services from "./main/services";
 import ServiceDetails from "./main/serviceDetails";
-import Price from "./main/price";
 import Team from "./main/team";
 import TeamDetails from "./main/teamDetails";
-import Blogs from "./main/blogs";
-import BlogDetails from "./main/blogDetails";
 import Contact from "./main/contact";
 import NotFound from "./notFound";
+import HowItWorks from "./main/how-it-works";
+import FAQ from "./main/faq";
 
 const pagesData = [
   {
@@ -60,11 +59,6 @@ const pagesData = [
         title: "About Us",
       },
       {
-        path: "price",
-        element: <Price />,
-        title: "Price",
-      },
-      {
         path: "team",
         title: "Teams",
         children: [
@@ -83,25 +77,31 @@ const pagesData = [
     ],
   },
   {
-    path: "blogs",
-    title: "Blogs",
+    path: "contact",
+    element: <Contact />,
+    title: "contact",
+  },
+  {
+    path: "how-it-works",
+    title: "How it works",
     children: [
       {
         path: "",
-        element: <Blogs />,
-        title: "All Blogs",
-      },
-      {
-        path: ":id",
-        element: <BlogDetails />,
-        title: "Blog",
+        element: <HowItWorks />,
+        title: "How it works",
       },
     ],
   },
   {
-    path: "contact",
-    element: <Contact />,
-    title: "contact",
+    path: "faq",
+    title: "Frequently Asked Questions",
+    children: [
+      {
+        path: "",
+        element: <FAQ />,
+        title: "Frequently Asked Questions",
+      },
+    ],
   },
   {
     path: "*",

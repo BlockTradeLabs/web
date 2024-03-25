@@ -4,25 +4,24 @@
       "btnJoin": "join now",
       "navList": {
         "home": "home",
-        "about": "about",
-        "blogs": "blogs",
-        "services": "services",
-        "contact": "contact"
-      },
-      "subNavList": {
-        "aboutUs": "about us",
-        "team": "team",
-        "price": "price"
+        "litePaper": "LitePaper",
+        "aboutUs": "about",
+        "howItWorks": "How it works",
+        "faq": "FAQ"
       }
     }
   },
   "home": {
     "intro": {
-      "title": "invest your money with",
-      "titleSpan": "higher return",
-      "description": "Anyone can invest money to different currency to increase their earnings by the help of Bitrader through online.",
+      "title": "Explore Defi by Trading with",
+      "titleSpan": {
+        "1": "Leverage On-chain",
+        "2": "Bridged transactions",
+        "3": "Certified traders"
+      },
+      "description": "Spectre is building the world's first digital asset proprietary trading fund protocol; we educate, qualify and manage traders while empowering them to access capital and trade with ultimate freedom.",
       "btnStart": "get started",
-      "btnWatch": "watch video",
+      "btnJnComty": "join our community",
       "socialTitle": "follow us"
     },
     "about": {
@@ -30,52 +29,53 @@
       "thumbDescriptionTop": "consulting experience",
       "thumbTitleBottom": "k+",
       "thumbDescriptionBottom": "satisfied customers",
-      "contentTitle": " unless miss the opportunity",
-      "contentTitleSpan": "meet our company",
-      "contentDescription": "Hey there! So glad you stopped by to Meet Our Company. Don't miss out on this opportunity to learn about what we do and the amazing team that makes it all happen! Our company is all about creating innovative solutions and providing top-notch services to our clients. From start to finish, we're dedicated to delivering results that exceed expectations.",
+      "contentTitle": " The Future of On-Chain Trading",
+      "contentTitleSpan": "Introducing Spectre:",
+      "contentDescription": "Spectre is a cutting-edge DeFi platform designed to democratize trading by providing unparalleled access to on-chain leverage, liquidity, and comprehensive education. At its core, Spectre is about empowering traders through innovation and transparency, ensuring everyone has the tools to succeed in the fast-evolving financial landscape. We're not just a platform; we're a revolution in how the world trades, making financial markets accessible and equitable for all.",
       "btnMore": "explore more"
     },
     "feature": {
-      "contentTitleSpan": "benefits ",
-      "contentTitle": "we offer",
-      "contentDescription": "Unlock the full potential of our product with our amazing features and top-notch.",
+      "contentTitleSpan": "Prop Trading for Traders, ",
+      "contentTitle": "By Traders.",
+      "contentDescription": "",
       "contentNavList": {
-        "navItem1": "Lending Money For Investment Of Your New Projects",
-        "navItem2": "More Security And Control Over Money From The Rest",
-        "navItem3": "Mobile Payment Is More Flexible And Easy For All Investors",
-        "navItem4": "All Transaction Is Kept Free For The Member Of Pro Traders"
+        "navItem1": "Integrated Learning and Community Platform",
+        "navItem2": "Decentralised Exchange Simulated Environment",
+        "navItem3": "Anonymous Reputation Scoring",
+        "navItem4": "Shadow Escrow Trading Account",
+        "navItem5": "Risk-Adjusted Tranche Pool"
       },
       "thumbDescription1": "Interest Rate For Loan",
       "thumbDescription2": "Available for loan"
     },
     "service": {
-      "titleSpan": "services",
-      "title": " we offer",
-      "description": "We offer the best services around - from installations to repairs, maintenance, and more!",
+      "titleSpan": "Trading ",
+      "title": " with Spectre",
+      "description": "",
       "serviceList": {
-        "strategy consulting": {
-          "title": "strategy consulting",
-          "description": "A social assistant that's flexible can accommodate your schedule and needs, making life easier"
+        "First in the World": {
+          "title": "First in the World",
+          "description": "Spectre stands as the pioneering platform in the DeFi space, offering a unique blend of trading functionalities and innovations that place it at the forefront of financial technology."
         },
-        "financial advisory": {
-          "title": "financial advisory",
-          "description": "Modules transform smart trading by automating processes and improving decision-making."
+        "Profit Split System": {
+          "title": "Profit Split System",
+          "description": "Traders on Spectre enjoy a favorable profit split arrangement, where earnings are shared in a way that rewards success and encourages smart trading strategies."
         },
-        "management": {
-          "title": "management",
-          "description": "There, it's me, your friendly neighborhood reporter's news analyst processes and improving"
+        "Staking Refund": {
+          "title": "Staking Refund",
+          "description": "Our unique staking refund policy ensures that traders have a safety net, offering refunds on staked amounts under certain conditions, which emphasizes our commitment to trader success and satisfaction."
         },
-        "supply optimization": {
-          "title": "supply optimization",
-          "description": "Hey, have you checked out that new cryptocurrency platform? It's pretty cool and easy to use!"
+        "Reward Cycle": {
+          "title": "Reward Cycle",
+          "description": "Spectre introduces a dynamic reward cycle that incentivizes continuous trading activity and success. This cycle is designed to recognize and reward the most active and successful traders within our ecosystem."
         },
-        "HR consulting": {
-          "title": "HR consulting",
-          "description": "Hey guys, just a quick update on exchange orders. There have been some changes currency!"
+        "On-Chain Leverage": {
+          "title": "On-Chain Leverage",
+          "description": "Access cutting-edge on-chain leverage options that allow traders to amplify their trading strategies without compromising security. Spectre's leverage tools are built to enhance trading power while maintaining responsible risk management."
         },
-        "marketing consulting": {
-          "title": "marketing consulting",
-          "description": "Hey! Just wanted to let you know that the price notification module processes is nowlive!"
+        "Scalable Trading Capital": {
+          "title": "Scalable Trading Capital",
+          "description": "With Spectre, traders can easily scale their trading capital, thanks to our platform's deep liquidity pools and flexible capital allocation features. Whether you're starting small or ready to expand, Spectre adapts to meet your trading ambitions."
         }
       }
     },
@@ -159,40 +159,40 @@
       "titleSpan": "advisers",
       "description": "Hey everyone, meet our amazing advisers! They're here to help and guide us through anything.",
       "memberList": {
-        "dianne russell": {
-          "name": "dianne russell",
-          "branch": "trade captain"
+        "Daryl Lim": {
+          "name": "Daryl Lim",
+          "branch": "Core team member"
         },
-        "theresa webb": {
-          "name": "theresa webb",
-          "branch": "strategic advisor"
+        "Juan Pablo Gutiérrez": {
+          "name": "Juan Pablo Gutiérrez",
+          "branch": "Core team member"
         },
-        "courtney henry": {
-          "name": "courtney henry",
-          "branch": "management consultant"
+        "Martin Berguer": {
+          "name": "Martin Berguer",
+          "branch": "Core team member"
         },
-        "albert flores": {
-          "name": "albert flores",
-          "branch": "development specialist"
+        "Mrisho Lukamba": {
+          "name": "Mrisho Lukamba",
+          "branch": "Core team member"
         },
-        "darrell steward": {
-          "name": "darrell steward",
-          "branch": "growth strategist"
+        "Ryan Lee": {
+          "name": "Ryan Lee",
+          "branch": "Core team member"
         },
-        "wade warren": {
-          "name": "wade warren",
-          "branch": "trade consultant"
+        "Irvin Cardenas": {
+          "name": "Irvin Cardenas",
+          "branch": "Advisor"
         },
-        "cody fisher": {
-          "name": "cody fisher",
-          "branch": "HR consultant"
+        "Rishant Kumar": {
+          "name": "Rishant Kumar",
+          "branch": "Advisor"
         },
-        "bessie cooper": {
-          "name": "bessie cooper",
-          "branch": "financial advisor"
+        "Tawei Chang": {
+          "name": "Tawei Chang",
+          "branch": "Advisor"
         }
       },
-      "btnMore": "view more"
+      "btnJoin": "Join our team"
     },
     "blogs": {
       "title": "for pro traders",
@@ -245,6 +245,70 @@
         }
       },
       "btnMore": "view more"
+    },
+    "contact": {
+      "title": "Curious to find out ",
+      "titleSpan": "more?",
+      "description": "",
+      "slides": {
+        "What is Spectre?": {
+          "title": "What is Spectre?",
+          "description": "1"
+        },
+        "How does it work?": {
+          "title": "How does it work?",
+          "description": "2"
+        },
+        "What are the benefits of using on Spectre?": {
+          "title": "What are the benefits of using on Spectre?",
+          "description": "3"
+        },
+        "How do I get started on Spectre?": {
+          "title": "How do I get started on Spectre?",
+          "description": "4"
+        },
+        "What is blockchain technology and how does it work on Spectre?": {
+          "title": "What is blockchain technology and how does it work on Spectre?",
+          "description": "5"
+        }
+      },
+      "btnFAQ": "Access our FAQ"
+    },
+    "faq": {
+      "title": "asked questions",
+      "titleSpan": "frequently ",
+      "description": "Hey there! Got questions? We've got answers. Check out our FAQ page for all the deets. Still not satisfied? Hit us up.",
+      "faqList": {
+        "question1": {
+          "title": "what does this tool do?",
+          "description": "Online trading’s primary advantages are that it allows you to manage your trades at your convenience."
+        },
+        "question2": {
+          "title": "what are the disadvantages of online trading?",
+          "description": "You don’t need to worry, the interface is user-friendly. Anyone can use it smoothly. Our user manual will help you to solve your problem."
+        },
+        "question3": {
+          "title": "is online trading safe?",
+          "description": " Online trading’s primary advantages are that it allows you to manage your trades at your convenience."
+        },
+        "question4": {
+          "title": "what is online trading and how does it work?",
+          "description": " Online trading’s primary advantages are that it allows you to manage your trades at your convenience."
+        },
+        "question5": {
+          "title": "which app is best for online trading?",
+          "description": " Online trading’s primary advantages are that it allows you to manage your trades at your convenience."
+        },
+        "question6": {
+          "title": "how to create a trading account?",
+          "description": " Online trading’s primary advantages are that it allows you to manage your trades at your convenience."
+        }
+      }
+    },
+    "how-it-works": {
+      "title": "How",
+      "titleSpan": " it works?",
+      "description": ""
     }
   }
 }

@@ -14,26 +14,26 @@ import serviceImgLight6 from "../../../../components/main/home/service/assets/im
 export const serviceList = [
   {
     images: { light: serviceImgLight1, dark: serviceImgDark1 },
-    title: "strategy consulting",
+    title: "First in the World",
   },
   {
     images: { light: serviceImgLight2, dark: serviceImgDark2 },
-    title: "financial advisory",
+    title: "Profit Split System",
   },
   {
     images: { light: serviceImgLight3, dark: serviceImgDark3 },
-    title: "management",
+    title: "Staking Refund",
   },
   {
     images: { light: serviceImgLight4, dark: serviceImgDark4 },
-    title: "supply optimization",
+    title: "Reward Cycle",
   },
   {
     images: { light: serviceImgLight5, dark: serviceImgDark5 },
-    title: "HR consulting",
+    title: "On-Chain Leverage",
   },
   {
     images: { light: serviceImgLight6, dark: serviceImgDark6 },
-    title: "marketing consulting",
+    title: "Scalable Trading Capital",
   },
 ];

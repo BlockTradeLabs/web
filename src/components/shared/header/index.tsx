@@ -20,7 +20,7 @@ const Header = () => {
           <div className={styles.container}>
             <div className="col col-5 col-lg-3 text-start">
               <div className={styles.logo}>
-                <Link to="">
+                <Link to="/">
                   <img
                     src={currentTheme === "light" ? logoDark : logoLight}
                     alt="logo-dark"

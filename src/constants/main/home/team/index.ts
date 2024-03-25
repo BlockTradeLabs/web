@@ -19,41 +19,41 @@ export const memberList = [
   {
     imgSrc: member1,
     imgSrcDark: member1dark,
-    name: "dianne russell",
+    name: "Daryl Lim",
   },
   {
     imgSrc: member2,
     imgSrcDark: member2dark,
-    name: "theresa webb",
+    name: "Juan Pablo Gutiérrez",
   },
   {
     imgSrc: member3,
     imgSrcDark: member3dark,
-    name: "courtney henry",
+    name: "Martin Berguer",
   },
   {
     imgSrc: member4,
     imgSrcDark: member4dark,
-    name: "albert flores",
+    name: "Mrisho Lukamba",
   },
   {
     imgSrc: member5,
     imgSrcDark: member5dark,
-    name: "darrell steward",
+    name: "Ryan Lee",
   },
   {
     imgSrc: member6,
     imgSrcDark: member6dark,
-    name: "wade warren",
+    name: "Irvin Cardenas",
   },
   {
     imgSrc: member7,
     imgSrcDark: member7dark,
-    name: "cody fisher",
+    name: "Rishant Kumar",
   },
   {
     imgSrc: member8,
     imgSrcDark: member8dark,
-    name: "bessie cooper",
+    name: "Tawei Chang",
   },
 ];

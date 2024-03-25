@@ -5,12 +5,8 @@ import IntroSection from "./intro";
 import AboutSection from "./about";
 import FeatureSection from "./feature";
 import ServiceSection from "./service";
-import PartnerSlider from "./partnerSlider";
-import RoadmapSection from "./roadmap";
-import PricingSection from "./pricing";
-import TeamSection from "./team";
-import TestimonialSection from "./testimonial";
-import BlogSection from "./blogs";
+import Contact from "../../../pages/main/contact";
+import Footer from "../../shared/footer";
 
 const HomeContainer = () => {
   return (
@@ -20,15 +16,11 @@ const HomeContainer = () => {
         <LanguageSwitcher />
         <ThemeSwitcher />
         <IntroSection />
-        <PartnerSlider />
         <AboutSection />
         <FeatureSection />
         <ServiceSection />
-        <RoadmapSection />
-        <PricingSection />
-        <TeamSection />
-        <BlogSection />
-        <TestimonialSection />
+        <Contact />
+        <Footer />
       </div>
     </>
   );

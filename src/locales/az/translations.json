@@ -4,25 +4,27 @@
       "btnJoin": "İndi qoşul",
       "navList": {
         "home": "əsas",
-        "about": "haqqımızda",
+        "litePaper": "LitePaper",
+        "aboutUs": "haqqımızda",
+        "howItWorks": "Necə İşləyir",
+        "faq": "FAQ",
         "blogs": "bloq",
         "services": "xidmətlərimiz",
         "contact": "əlaqə"
-      },
-      "subNavList": {
-        "aboutUs": "haqqımızda",
-        "team": "komandamız",
-        "price": "qiymət"
       }
     }
   },
   "home": {
     "intro": {
-      "title": "pulunuzu  yatırın,",
-      "titleSpan": "daha yüksək gəlirlə",
-      "description": "Hər kəs Bitrader-in köməyi ilə qazancını onlayn olaraq artırmaq üçün müxtəlif valyutalara pul yatıra bilər.",
+      "title": "Defi ilə ticarət edərək kəşf edin",
+      "titleSpan": {
+        "1": "Zəncirvari leverage",
+        "2": "Körpülənmiş əməliyyatları",
+        "3": "Sertifikatlı treyderlər"
+      },
+      "description": "Spectre dünyanın ilk rəqəmsal aktivlərə məxsus ticarət fondu protokolunu qurur; biz treyderləri öyrədirik, ixtisaslandırırıq və idarə edirik, eyni zamanda onlara kapitala daxil olmaq və son sərbəstliklə ticarət etmək imkanı veririk.",
       "btnStart": "İndi başla",
-      "btnWatch": "videonu İzlə",
+      "btnJnComty": "videonu İzlə",
       "socialTitle": "bizi İzlə"
     },
     "about": {
@@ -43,39 +45,40 @@
         "navItem1": "Yeni Layihələrinizə İnvestisiya Üçün Pul Verilməsi",
         "navItem2": "Pul Üzərində Digərlərindən Daha Çox Təhlükəsizlik və Nəzarət",
         "navItem3": "Mobil Ödəniş Bütün İnvestorlar Üçün Daha Rahat və Asandır",
-        "navItem4": "Bütün Əməliyyatlar Premium Üzvlərimiz Üçün Pulsuz Saxlanılır"
+        "navItem4": "Bütün Əməliyyatlar Premium Üzvlərimiz Üçün Pulsuz Saxlanılır",
+        "navItem5": "Risk-Adjusted Tranche Pool"
       },
       "thumbDescription1": "Kredit Üçün Faiz Dərəcəsi",
       "thumbDescription2": "Ayrılmış vəsait"
     },
     "service": {
-      "titleSpan": "Xidmətlər",
-      "title": "",
-      "description": "Biz ətrafdakı ən yaxşı xidmətləri təklif edirik - quraşdırmadan təmirə, texniki xidmətə və s.!",
+      "titleSpan": "Trading ",
+      "title": " with Spectre",
+      "description": "",
       "serviceList": {
-        "strategy consulting": {
-          "title": "stratejik konsaltinq",
-          "description": "Sosial köməkçi, sizin qrafik və tələblərinizə uyğun olaraq rahatlıqla sizin üçün həyata keçirilmişdir, həyatı asanlaşdırır"
+        "First in the World": {
+          "title": "First in the World",
+          "description": "Spectre stands as the pioneering platform in the DeFi space, offering a unique blend of trading functionalities and innovations that place it at the forefront of financial technology."
         },
-        "financial advisory": {
-          "title": "maliyyə məsləhətçisi",
-          "description": "Modullar, prosesləri avtomatlaşdıraraq və qərar verməni təkmilləşdirərək smart ticarəti dəyişdirir."
+        "Profit Split System": {
+          "title": "Profit Split System",
+          "description": "Traders on Spectre enjoy a favorable profit split arrangement, where earnings are shared in a way that rewards success and encourages smart trading strategies."
         },
-        "management": {
-          "title": "idarəetmə",
-          "description": "Bu sizin xəbər təhlil prosesləri və təkmilləşdirmə üçündür."
+        "Staking Refund": {
+          "title": "Staking Refund",
+          "description": "Our unique staking refund policy ensures that traders have a safety net, offering refunds on staked amounts under certain conditions, which emphasizes our commitment to trader success and satisfaction."
         },
-        "supply optimization": {
-          "title": "təchizatın optimallaşdırılması",
-          "description": "Yeni kriptoqrafia platformasını yoxlamağınız lazımdır? Çox maraqlı və istifadə etməsi asandır!"
+        "Reward Cycle": {
+          "title": "Reward Cycle",
+          "description": "Spectre introduces a dynamic reward cycle that incentivizes continuous trading activity and success. This cycle is designed to recognize and reward the most active and successful traders within our ecosystem."
         },
-        "HR consulting": {
-          "title": "HR konsaltinq",
-          "description": "dostlar, əməliyyat sifarişləri ilə bağlı bir qısa yeniləmə. Məzənnədə bəzi valyuta dəyişikliklər olub!"
+        "On-Chain Leverage": {
+          "title": "On-Chain Leverage",
+          "description": "Access cutting-edge on-chain leverage options that allow traders to amplify their trading strategies without compromising security. Spectre's leverage tools are built to enhance trading power while maintaining responsible risk management."
         },
-        "marketing consulting": {
-          "title": "marketinq konsaltinq",
-          "description": "Yalnız bildirək ki, qiymət bildirişi modulu prosesləri artıq online!"
+        "Scalable Trading Capital": {
+          "title": "Scalable Trading Capital",
+          "description": "With Spectre, traders can easily scale their trading capital, thanks to our platform's deep liquidity pools and flexible capital allocation features. Whether you're starting small or ready to expand, Spectre adapts to meet your trading ambitions."
         }
       }
     },
@@ -159,40 +162,40 @@
       "titleSpan": "mütəxəssislərimiz",
       "description": "Salamlar, qarşınızda möhtəşəm məsləhətçilərimiz var! Onlar buradadırlar ki, hər hansı şeydə bizə kömək etsinlər və rəhbərlik etsinlər.",
       "memberList": {
-        "dianne russell": {
-          "name": "dianne russell",
-          "branch": "baş trader"
+        "Daryl Lim": {
+          "name": "Daryl Lim",
+          "branch": "Core team member"
         },
-        "theresa webb": {
-          "name": "theresa webb",
-          "branch": "strategik məsləhətçi"
+        "Juan Pablo Gutiérrez": {
+          "name": "Juan Pablo Gutiérrez",
+          "branch": "Core team member"
         },
-        "courtney henry": {
-          "name": "courtney henry",
-          "branch": "menecment məsləhətçisi"
+        "Martin Berguer": {
+          "name": "Martin Berguer",
+          "branch": "Core team member"
         },
-        "albert flores": {
-          "name": "albert flores",
-          "branch": "development mütəxəssisi"
+        "Mrisho Lukamba": {
+          "name": "Mrisho Lukamba",
+          "branch": "Core team member"
         },
-        "darrell steward": {
-          "name": "darrell steward",
-          "branch": "growth strategist"
+        "Ryan Lee": {
+          "name": "Ryan Lee",
+          "branch": "Core team member"
         },
-        "wade warren": {
-          "name": "wade warren",
-          "branch": "trade məsləhətçisi"
+        "Irvin Cardenas": {
+          "name": "Irvin Cardenas",
+          "branch": "Advisor"
         },
-        "cody fisher": {
-          "name": "cody fisher",
-          "branch": "HR məsləhətçisi"
+        "Rishant Kumar": {
+          "name": "Rishant Kumar",
+          "branch": "Advisor"
         },
-        "bessie cooper": {
-          "name": "bessie cooper",
-          "branch": "maliyyə məsləhətçisi"
+        "Tawei Chang": {
+          "name": "Tawei Chang",
+          "branch": "Advisor"
         }
       },
-      "btnMore": "daha çox göstər"
+      "btnJoin": "Join our team"
     },
     "blogs": {
       "title": " üçün məqalələr",
@@ -245,6 +248,70 @@
         }
       },
       "btnMore": "Ətraflı"
+    },
+    "contact": {
+      "title": "Bizimlə əlaqə saxlayın ",
+      "titleSpan": "müştərilərimiz",
+      "description": "Müştərilərimizlə əlaqə qurmaqdan, onların təcrübələrini və xidmətlərimizi necə inkişaf etdirə biləcəyimiz barədə məlumat almaqdan məmnunluq duyuruq.",
+      "slides": {
+        "What is Spectre?": {
+          "title": "What is Spectre?",
+          "description": "1"
+        },
+        "How does it work?": {
+          "title": "How does it work?",
+          "description": "2"
+        },
+        "What is blockchain technology and how does it work on Spectre?": {
+          "title": "What is blockchain technology and how does it work on Spectre?",
+          "description": "3"
+        },
+        "What are the benefits of using on Spectre?": {
+          "title": "What are the benefits of using on Spectre?",
+          "description": "4"
+        },
+        "How do I get started on Spectre?": {
+          "title": "How do I get started on Spectre?",
+          "description": "5"
+        }
+      },
+      "btnFAQ": "Access our FAQ"
+    },
+    "faq": {
+      "title": "sual verilmiş suallar",
+      "titleSpan": "tez-tez ",
+      "description": "Salam! Suallarınız varsa, cavabları bizdə var. Bütün detallar üçün FAQ səhifəmizi yoxlayın. Hələ də razılaşmamısınızsa, bizimlə əlaqə saxlayın.",
+      "faqList": {
+        "question1": {
+          "title": "bu nə işə yarayır?",
+          "description": "Onlayn ticarətin əsas üstünlükləri, əməkdaşlıqlarınızı öz rahatlığınıza görə idarə etməyə imkan verir."
+        },
+        "question2": {
+          "title": "onlayn ticarətin dezavantajları nələrdir?",
+          "description": "Narahat olmağınıza ehtiyac yoxdur, interfeys istifadəçi dostudur. Hər kəs onu asanlıqla istifadə edə bilər. İstifadəçi təlimatımız sizi probleminizi həll etməyə kömək edəcəkdir."
+        },
+        "question3": {
+          "title": "onlayn ticarət təhlükəsizdir?",
+          "description": "Onlayn ticarətin əsas üstünlükləri, əməkdaşlıqlarınızı öz rahatlığınıza görə idarə etməyə imkan verir."
+        },
+        "question4": {
+          "title": "onlayn ticarət nədir və necə işləyir?",
+          "description": "Onlayn ticarətin əsas üstünlükləri, əməkdaşlıqlarınızı öz rahatlığınıza görə idarə etməyə imkan verir."
+        },
+        "question5": {
+          "title": "onlayn ticarət üçün ən yaxşı proqram hansıdır?",
+          "description": "Onlayn ticarətin əsas üstünlükləri, əməkdaşlıqlarınızı öz rahatlığınıza görə idarə etməyə imkan verir."
+        },
+        "question6": {
+          "title": "ticarət hesabı necə yaradılır?",
+          "description": "Onlayn ticarətin əsas üstünlükləri, əməkdaşlıqlarınızı öz rahatlığınıza görə idarə etməyə imkan verir."
+        }
+      }
+    },
+    "how-it-works": {
+      "title": "How",
+      "titleSpan": " it works?",
+      "description": ""
     }
   }
 }
