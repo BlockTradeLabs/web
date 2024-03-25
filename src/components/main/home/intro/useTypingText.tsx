@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 
 const FORWARD = "forward";
 const BACKWARD = "backward";
@@ -16,7 +16,7 @@ export const useTypingText = (
   const [currentWord, setCurrentWord] = useState(words[wordIndex].split(""));
   const [isStopped, setIsStopped] = useState(false);
   const direction = useRef(BACKWARD);
-  const typingInterval = useRef();
+  const typingInterval = useRef(setInterval(() => {}));
   const letterIndex = useRef(5);
   const [firstRun, setFirstRun] = useState(true);
 

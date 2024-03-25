@@ -1,7 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { ItemProps } from "../../../../models/IContactItem";
 import styles from "./assets/css/styles.module.css";
-import quoteIcon from "./assets/images/quote-icon.svg";
 
 const ContactItem: React.FC<ItemProps> = ({ item }) => {
   const { t } = useTranslation();
