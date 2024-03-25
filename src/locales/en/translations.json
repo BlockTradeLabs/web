@@ -1,0 +1,314 @@
+{
+  "shared": {
+    "header": {
+      "btnJoin": "join now",
+      "navList": {
+        "home": "home",
+        "litePaper": "LitePaper",
+        "aboutUs": "about",
+        "howItWorks": "How it works",
+        "faq": "FAQ"
+      }
+    }
+  },
+  "home": {
+    "intro": {
+      "title": "Explore Defi by Trading with",
+      "titleSpan": {
+        "1": "Leverage On-chain",
+        "2": "Bridged transactions",
+        "3": "Certified traders"
+      },
+      "description": "Spectre is building the world's first digital asset proprietary trading fund protocol; we educate, qualify and manage traders while empowering them to access capital and trade with ultimate freedom.",
+      "btnStart": "get started",
+      "btnJnComty": "join our community",
+      "socialTitle": "follow us"
+    },
+    "about": {
+      "thumbTitleTop": " years",
+      "thumbDescriptionTop": "consulting experience",
+      "thumbTitleBottom": "k+",
+      "thumbDescriptionBottom": "satisfied customers",
+      "contentTitle": " The Future of On-Chain Trading",
+      "contentTitleSpan": "Introducing Spectre:",
+      "contentDescription": "Spectre is a cutting-edge DeFi platform designed to democratize trading by providing unparalleled access to on-chain leverage, liquidity, and comprehensive education. At its core, Spectre is about empowering traders through innovation and transparency, ensuring everyone has the tools to succeed in the fast-evolving financial landscape. We're not just a platform; we're a revolution in how the world trades, making financial markets accessible and equitable for all.",
+      "btnMore": "explore more"
+    },
+    "feature": {
+      "contentTitleSpan": "Prop Trading for Traders, ",
+      "contentTitle": "By Traders.",
+      "contentDescription": "",
+      "contentNavList": {
+        "navItem1": "Integrated Learning and Community Platform",
+        "navItem2": "Decentralised Exchange Simulated Environment",
+        "navItem3": "Anonymous Reputation Scoring",
+        "navItem4": "Shadow Escrow Trading Account",
+        "navItem5": "Risk-Adjusted Tranche Pool"
+      },
+      "thumbDescription1": "Interest Rate For Loan",
+      "thumbDescription2": "Available for loan"
+    },
+    "service": {
+      "titleSpan": "Trading ",
+      "title": " with Spectre",
+      "description": "",
+      "serviceList": {
+        "First in the World": {
+          "title": "First in the World",
+          "description": "Spectre stands as the pioneering platform in the DeFi space, offering a unique blend of trading functionalities and innovations that place it at the forefront of financial technology."
+        },
+        "Profit Split System": {
+          "title": "Profit Split System",
+          "description": "Traders on Spectre enjoy a favorable profit split arrangement, where earnings are shared in a way that rewards success and encourages smart trading strategies."
+        },
+        "Staking Refund": {
+          "title": "Staking Refund",
+          "description": "Our unique staking refund policy ensures that traders have a safety net, offering refunds on staked amounts under certain conditions, which emphasizes our commitment to trader success and satisfaction."
+        },
+        "Reward Cycle": {
+          "title": "Reward Cycle",
+          "description": "Spectre introduces a dynamic reward cycle that incentivizes continuous trading activity and success. This cycle is designed to recognize and reward the most active and successful traders within our ecosystem."
+        },
+        "On-Chain Leverage": {
+          "title": "On-Chain Leverage",
+          "description": "Access cutting-edge on-chain leverage options that allow traders to amplify their trading strategies without compromising security. Spectre's leverage tools are built to enhance trading power while maintaining responsible risk management."
+        },
+        "Scalable Trading Capital": {
+          "title": "Scalable Trading Capital",
+          "description": "With Spectre, traders can easily scale their trading capital, thanks to our platform's deep liquidity pools and flexible capital allocation features. Whether you're starting small or ready to expand, Spectre adapts to meet your trading ambitions."
+        }
+      }
+    },
+    "roadmap": {
+      "title": "product ",
+      "titleSpan": "roadmap",
+      "description": "A product roadmap shows the path ahead, helps teams plan, and guides the delivery of the product.",
+      "roadmapList": {
+        "project research": {
+          "title": "project research",
+          "order": "p1",
+          "description": "Project research is the backbone of any successful project. It involves gathering information, setting objectives, and analyzing data to ensure the project is achievable. Without proper research, projects can fail due to lack of knowledge."
+        },
+        "framing idea": {
+          "title": "framing idea",
+          "order": "p2",
+          "description": "Hey there! Just wanted to throw out a framing idea for our upcoming project. Let's start with the big picture and then work our way down to the details. This way we ensure our vision stays on track while also ironing out."
+        },
+        "design first draft": {
+          "title": "design first draft",
+          "order": "p3",
+          "description": "Hey guys, just wanted to share my design first draft! I went for a minimalist look with a pop of color. What do you think? Open to any suggestions or feedback. Can't wait to see how this turns out over all kind of success!"
+        },
+        "final design": {
+          "title": "final design",
+          "order": "p4",
+          "description": "So after lots of reiterations, and endless tweaking, we finally landed on the final design. It's slick, it's modern, and it perfectly captures the essence of what we were aiming for. We couldn't be more excited to launch it!"
+        },
+        "project development": {
+          "title": "project development",
+          "order": "p5",
+          "description": "So we're deep in project development here, and things are coming along nicely. We've got a solid plan in place and our team is firing on all cylinders. There's still work to be done, but we're excited about what we're building."
+        },
+        "launch project": {
+          "title": "launch project",
+          "order": "p6",
+          "description": "Alright folks, it's time to get this project off the ground! We've been talking about it for weeks, and now it's time to launch. We've got all the pieces in place, so let's get to work and make this thing happen!"
+        }
+      }
+    },
+    "pricing": {
+      "titleLeft": "our ",
+      "titleSpan": "pricing ",
+      "titleRight": "plan",
+      "description": "We offer the best pricings around - from installations to repairs, maintenance, and more!",
+      "planTitleSpan": "monthly",
+      "planList": {
+        "basic": {
+          "title": "basic",
+          "offerList": [
+            "weekly online meeting",
+            "unlimited learning access",
+            "24/7 technical support",
+            "personal training"
+          ]
+        },
+        "standard": {
+          "title": "standard",
+          "offerList": [
+            "weekly online meeting",
+            "unlimited learning access",
+            "24/7 technical support",
+            "personal training",
+            "business analysis"
+          ]
+        },
+        "premium": {
+          "title": "premium",
+          "offerList": [
+            "with all standard features",
+            "unlimited learning access",
+            "24/7 technical support",
+            "personal training"
+          ]
+        }
+      },
+      "btnChoose": "choose plan"
+    },
+    "team": {
+      "title": "meet our ",
+      "titleSpan": "advisers",
+      "description": "Hey everyone, meet our amazing advisers! They're here to help and guide us through anything.",
+      "memberList": {
+        "Daryl Lim": {
+          "name": "Daryl Lim",
+          "branch": "Core team member"
+        },
+        "Juan Pablo Gutiérrez": {
+          "name": "Juan Pablo Gutiérrez",
+          "branch": "Core team member"
+        },
+        "Martin Berguer": {
+          "name": "Martin Berguer",
+          "branch": "Core team member"
+        },
+        "Mrisho Lukamba": {
+          "name": "Mrisho Lukamba",
+          "branch": "Core team member"
+        },
+        "Ryan Lee": {
+          "name": "Ryan Lee",
+          "branch": "Core team member"
+        },
+        "Irvin Cardenas": {
+          "name": "Irvin Cardenas",
+          "branch": "Advisor"
+        },
+        "Rishant Kumar": {
+          "name": "Rishant Kumar",
+          "branch": "Advisor"
+        },
+        "Tawei Chang": {
+          "name": "Tawei Chang",
+          "branch": "Advisor"
+        }
+      },
+      "btnJoin": "Join our team"
+    },
+    "blogs": {
+      "title": "for pro traders",
+      "titleSpan": "articles ",
+      "description": "Hey there pro traders, check out these articles with tips to take your trading game to the next level!",
+      "slides": {
+        "trading market": {
+          "meta": "trading market",
+          "title": "hedge funds work?",
+          "description": "To cater to your individual trading preferences, we offer a variety of order types, including market.",
+          "author": "abhivibha kanmani",
+          "date": "20/05/2024"
+        },
+        "investment": {
+          "meta": "investment",
+          "title": "options trading business?",
+          "description": "Security is our top priority, and we employ robust measures to ensure the safety of your funds.",
+          "author": "hulya aydin",
+          "date": "12/07/2024"
+        },
+        "forex trading": {
+          "meta": "forex trading",
+          "title": "swing trading definition",
+          "description": "Our platform is not only about trading—it's also a hub for knowledge and learning. We provide resources. Our platform is not only about trading—it's also a hub for knowledge and learning. We provide resources.",
+          "author": "vasha gueye",
+          "date": "20/06/2024"
+        }
+      },
+      "btnMore": "view more"
+    },
+    "testimonial": {
+      "title": "connect with ",
+      "titleSpan": "our clients",
+      "description": "We love connecting with our clients to hear about their experiences and how we can improve.",
+      "slides": {
+        "guy hawkins": {
+          "title": "trade boss",
+          "description": "In the above testimonial, a customer named Jeanine shares her experience with Briogeo’s products. While the post is scattered with too many product mentions, it takes full advantage of its real estate by allowing the writer to tell",
+          "author": "guy hawkins"
+        },
+        "belal hossain": {
+          "title": "trade genius",
+          "description": "The above testimonial is about Martha Chumo, who taught herself to code in one summer. This testimonial example works because it allows prospective customers to see themselves in Codeacademy’s current customer base.",
+          "author": "belal hossain"
+        },
+        "mobarok hossain": {
+          "title": "trade master",
+          "description": "The above testimonial is about Martha Chumo, who taught herself to code in one summer. This testimonial example works because it allows prospective customers to see themselves in Codeacademy’s current customer base.",
+          "author": "mobarok hossain"
+        }
+      },
+      "btnMore": "view more"
+    },
+    "contact": {
+      "title": "Curious to find out ",
+      "titleSpan": "more?",
+      "description": "",
+      "slides": {
+        "What is Spectre?": {
+          "title": "What is Spectre?",
+          "description": "1"
+        },
+        "How does it work?": {
+          "title": "How does it work?",
+          "description": "2"
+        },
+        "What are the benefits of using on Spectre?": {
+          "title": "What are the benefits of using on Spectre?",
+          "description": "3"
+        },
+        "How do I get started on Spectre?": {
+          "title": "How do I get started on Spectre?",
+          "description": "4"
+        },
+        "What is blockchain technology and how does it work on Spectre?": {
+          "title": "What is blockchain technology and how does it work on Spectre?",
+          "description": "5"
+        }
+      },
+      "btnFAQ": "Access our FAQ"
+    },
+    "faq": {
+      "title": "asked questions",
+      "titleSpan": "frequently ",
+      "description": "Hey there! Got questions? We've got answers. Check out our FAQ page for all the deets. Still not satisfied? Hit us up.",
+      "faqList": {
+        "question1": {
+          "title": "what does this tool do?",
+          "description": "Online trading’s primary advantages are that it allows you to manage your trades at your convenience."
+        },
+        "question2": {
+          "title": "what are the disadvantages of online trading?",
+          "description": "You don’t need to worry, the interface is user-friendly. Anyone can use it smoothly. Our user manual will help you to solve your problem."
+        },
+        "question3": {
+          "title": "is online trading safe?",
+          "description": " Online trading’s primary advantages are that it allows you to manage your trades at your convenience."
+        },
+        "question4": {
+          "title": "what is online trading and how does it work?",
+          "description": " Online trading’s primary advantages are that it allows you to manage your trades at your convenience."
+        },
+        "question5": {
+          "title": "which app is best for online trading?",
+          "description": " Online trading’s primary advantages are that it allows you to manage your trades at your convenience."
+        },
+        "question6": {
+          "title": "how to create a trading account?",
+          "description": " Online trading’s primary advantages are that it allows you to manage your trades at your convenience."
+        }
+      }
+    },
+    "how-it-works": {
+      "title": "How",
+      "titleSpan": " it works?",
+      "description": ""
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.partnerSlider {
+  background-color: var(--tertiary-color);
+  padding: 18px 0;
+  border-top: 8px solid var(--body-color);
+  border-bottom: 8px solid var(--body-color);
+  position: relative;
+}
+
+.partnerSlider::after {
+  position: absolute;
+  content: "";
+  width: calc(100vw - 20px);
+  left: 8px;
+  top: -18px;
+  height: 120px;
+  background-color: var(--partner-color);
+  transform: rotate(2deg);
+  z-index: -999;
+  border-radius: 8px;
+}
+
+.container {}
+
+.slideImg {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}

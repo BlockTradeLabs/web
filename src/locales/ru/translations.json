@@ -1,0 +1,317 @@
+{
+  "shared": {
+    "header": {
+      "btnJoin": "Присоединяйся",
+      "navList": {
+        "home": "основной",
+        "litePaper": "легкий документ",
+        "aboutUs": "о нас",
+        "howItWorks": "как это работает",
+        "faq": "часто задаваемые вопросы",
+        "blogs": "блоги",
+        "services": "услуги",
+        "contact": "контакт"
+      }
+    }
+  },
+  "home": {
+    "intro": {
+      "title": "Исследуйте Defi, торгуя с",
+      "titleSpan": {
+        "1": "Плечо внутри цепочки",
+        "2": "Мостовые транзакции",
+        "3": "Сертифицированные трейдеры"
+      },
+      "description": "Spectre создает первый в мире собственный протокол фонда торговли цифровыми активами; мы обучаем, квалифицируем и управляем трейдерами, предоставляя им доступ к капиталу и торговле с максимальной свободой.",
+      "btnStart": "начать",
+      "btnJnComty": "смотреть видео",
+      "socialTitle": "Подписывайтесь на нас"
+    },
+    "about": {
+      "thumbTitleTop": " годы",
+      "thumbDescriptionTop": "опыт консультирования",
+      "thumbTitleBottom": "k+",
+      "thumbDescriptionBottom": "довольные клиенты",
+      "contentTitle": " если не упустите возможность",
+      "contentTitleSpan": "познакомьтесь с нашей компанией,",
+      "contentDescription": "Привет! Я так рад, что вы зашли, чтобы познакомиться с нашей компанией. Не упустите возможность узнать о том, чем мы занимаемся, и об удивительной команде, которая делает все это возможным! Наша компания занимается созданием инновационных решений и предоставлением первоклассных услуг нашим клиентам. От начала и до конца мы стремимся к достижению результатов, превосходящих ожидания.",
+      "btnMore": "исследовать"
+    },
+    "feature": {
+      "contentTitleSpan": "преимущества ",
+      "contentTitle": "мы предлагаем",
+      "contentDescription": "Разблокируйте полный потенциал нашего продукта с нашими удивительными функциями и первоклассным качеством.",
+      "contentNavList": {
+        "navItem1": "Предоставление Займа для Инвестирования ваших Новых Проектов",
+        "navItem2": "Больше Безопасности и Контроля над Деньгами от Остальных",
+        "navItem3": "Мобильные Платежи Более Гибки и Удобны для Всех Инвесторов",
+        "navItem4": "Все Транзакции Бесплатны для Членов Профессиональных Трейдеров",
+        "navItem5": "Risk-Adjusted Tranche Pool"
+      },
+      "thumbDescription1": "Процентная Ставка по Кредиту",
+      "thumbDescription2": "Доступно для Кредитования"
+    },
+    "service": {
+      "titleSpan": "Trading ",
+      "title": " with Spectre",
+      "description": "",
+      "serviceList": {
+        "First in the World": {
+          "title": "First in the World",
+          "description": "Spectre stands as the pioneering platform in the DeFi space, offering a unique blend of trading functionalities and innovations that place it at the forefront of financial technology."
+        },
+        "Profit Split System": {
+          "title": "Profit Split System",
+          "description": "Traders on Spectre enjoy a favorable profit split arrangement, where earnings are shared in a way that rewards success and encourages smart trading strategies."
+        },
+        "Staking Refund": {
+          "title": "Staking Refund",
+          "description": "Our unique staking refund policy ensures that traders have a safety net, offering refunds on staked amounts under certain conditions, which emphasizes our commitment to trader success and satisfaction."
+        },
+        "Reward Cycle": {
+          "title": "Reward Cycle",
+          "description": "Spectre introduces a dynamic reward cycle that incentivizes continuous trading activity and success. This cycle is designed to recognize and reward the most active and successful traders within our ecosystem."
+        },
+        "On-Chain Leverage": {
+          "title": "On-Chain Leverage",
+          "description": "Access cutting-edge on-chain leverage options that allow traders to amplify their trading strategies without compromising security. Spectre's leverage tools are built to enhance trading power while maintaining responsible risk management."
+        },
+        "Scalable Trading Capital": {
+          "title": "Scalable Trading Capital",
+          "description": "With Spectre, traders can easily scale their trading capital, thanks to our platform's deep liquidity pools and flexible capital allocation features. Whether you're starting small or ready to expand, Spectre adapts to meet your trading ambitions."
+        }
+      }
+    },
+    "roadmap": {
+      "title": "продукт ",
+      "titleSpan": "дорожная карта",
+      "description": "Дорожная карта показывает путь вперед, помогает командам планировать и направляет разработку продукта.",
+      "roadmapList": {
+        "project research": {
+          "title": "исследование проекта",
+          "order": "п1",
+          "description": "Исследование проекта - основа любого успешного проекта. Включает в себя сбор информации, постановку целей и анализ данных для обеспечения достижимости проекта. Без должного исследования проекты могут потерпеть неудачу из-за недостатка знаний."
+        },
+        "framing idea": {
+          "title": "формирование идеи",
+          "order": "п2",
+          "description": "Привет! Просто хотел предложить идею для формирования нашего предстоящего проекта. Давайте начнем с общей картины, а затем перейдем к деталям. Таким образом мы обеспечим сохранение нашего видения на правильном пути, разглаживая детали."
+        },
+        "design first draft": {
+          "title": "первый черновой дизайн",
+          "order": "п3",
+          "description": "Привет, ребята! Хочу поделиться своим первым черновым дизайном! Я выбрал минималистичный стиль с ярким цветовым акцентом. Что вы думаете? Открыт для любых предложений или обратной связи. Не терпится увидеть, как это все выйдет в общем успехе!"
+        },
+        "final design": {
+          "title": "окончательный дизайн",
+          "order": "п4",
+          "description": "Таким образом, после множества повторений и бесконечных коррекций, мы наконец пришли к окончательному дизайну. Это стильно, это современно, и он идеально передает суть того, чего мы добивались. Мы не могли быть более взволнованы запустить его!"
+        },
+        "project development": {
+          "title": "разработка проекта",
+          "order": "п5",
+          "description": "Итак, мы глубоко погружены в разработку проекта, и дела идут хорошо. У нас есть надежный план, и наша команда работает на полную мощность. Есть еще работа, но мы в восторге от того, что строим."
+        },
+        "launch project": {
+          "title": "запуск проекта",
+          "order": "п6",
+          "description": "Хорошо, люди, пришло время запустить этот проект! Мы обсуждали это несколько недель, и теперь пришло время запустить. У нас все готово, поэтому давайте приступим и сделаем это!"
+        }
+      }
+    },
+    "pricing": {
+      "titleLeft": "наш ",
+      "titleSpan": "тариф ",
+      "titleRight": "план",
+      "description": "Мы предлагаем лучшие цены - от установки до ремонта, обслуживания и многого другого!",
+      "planTitleSpan": "ежемесячно",
+      "planList": {
+        "basic": {
+          "title": "базовый",
+          "offerList": [
+            "еженедельное онлайн-собрание",
+            "неограниченный доступ к обучению",
+            "техническая поддержка 24/7",
+            "индивидуальное обучение"
+          ]
+        },
+        "standard": {
+          "title": "стандартный",
+          "offerList": [
+            "еженедельное онлайн-собрание",
+            "неограниченный доступ к обучению",
+            "техническая поддержка 24/7",
+            "индивидуальное обучение",
+            "бизнес-анализ"
+          ]
+        },
+        "premium": {
+          "title": "премиум",
+          "offerList": [
+            "со всеми стандартными функциями",
+            "неограниченный доступ к обучению",
+            "техническая поддержка 24/7",
+            "индивидуальное обучение"
+          ]
+        }
+      },
+      "btnChoose": "выбрать план"
+    },
+    "team": {
+      "title": "познакомьтесь с нашими ",
+      "titleSpan": "советниками",
+      "description": "Привет всем, познакомьтесь с нашими удивительными советниками! Они здесь, чтобы помочь и провести нас через все.",
+      "memberList": {
+        "Daryl Lim": {
+          "name": "Daryl Lim",
+          "branch": "Core team member"
+        },
+        "Juan Pablo Gutiérrez": {
+          "name": "Juan Pablo Gutiérrez",
+          "branch": "Core team member"
+        },
+        "Martin Berguer": {
+          "name": "Martin Berguer",
+          "branch": "Core team member"
+        },
+        "Mrisho Lukamba": {
+          "name": "Mrisho Lukamba",
+          "branch": "Core team member"
+        },
+        "Ryan Lee": {
+          "name": "Ryan Lee",
+          "branch": "Core team member"
+        },
+        "Irvin Cardenas": {
+          "name": "Irvin Cardenas",
+          "branch": "Advisor"
+        },
+        "Rishant Kumar": {
+          "name": "Rishant Kumar",
+          "branch": "Advisor"
+        },
+        "Tawei Chang": {
+          "name": "Tawei Chang",
+          "branch": "Advisor"
+        }
+      },
+      "btnJoin": "Join our team"
+    },
+    "blogs": {
+      "title": "для профессиональных трейдеров",
+      "titleSpan": "статьи ",
+      "description": "Привет, профессиональные трейдеры, ознакомьтесь с этими статьями с советами, чтобы поднять свою торговую игру на новый уровень!",
+      "slides": {
+        "trading market": {
+          "meta": "торговый рынок",
+          "title": "как работают хедж-фонды?",
+          "description": "Для удовлетворения ваших индивидуальных торговых предпочтений мы предлагаем различные типы ордеров, включая рыночные.",
+          "author": "абхивибха канмани",
+          "date": "20/05/2024"
+        },
+        "investment": {
+          "meta": "инвестиции",
+          "title": "бизнес по торговле опционами?",
+          "description": "Безопасность - наш главный приоритет, и мы применяем надежные меры для обеспечения безопасности ваших средств.",
+          "author": "хуля айдын",
+          "date": "12/07/2024"
+        },
+        "forex trading": {
+          "meta": "торговля на Форексе",
+          "title": "определение суинг-трейдинга",
+          "description": "Наша платформа не только о торговле - это также центр знаний и обучения. Мы предоставляем ресурсы.",
+          "author": "ваша гуе",
+          "date": "20/06/2024"
+        }
+      },
+      "btnMore": "просмотреть больше"
+    },
+    "testimonial": {
+      "title": "Подключайтесь к ",
+      "titleSpan": "нашим клиентам",
+      "description": "Нам нравится общаться с нашими клиентами, чтобы узнать об их опыте и том, как мы можем улучшить свою работу.",
+      "slides": {
+        "guy hawkins": {
+          "title": "Торговый босс",
+          "description": "В приведенном выше отзыве клиент по имени Жанин делится своим опытом использования продуктов Briogeo. Хотя в тексте отзыва слишком много упоминаний о продуктах, он отлично использует свое пространство, позволяя автору рассказать...",
+          "author": "Гай Хокинс"
+        },
+        "belal hossain": {
+          "title": "Торговый гений",
+          "description": "В приведенном выше отзыве говорится о Марте Чумо, которая самостоятельно научилась программировать за одно лето. Этот пример отзыва работает, потому что он позволяет потенциальным клиентам увидеть себя в числе нынешних клиентов Codeacademy.",
+          "author": "Белал Хоссейн"
+        },
+        "mobarok hossain": {
+          "title": "Мастер торговли",
+          "description": "В приведенном выше отзыве говорится о Марте Чумо, которая самостоятельно научилась программировать за одно лето. Этот пример отзыва работает, потому что он позволяет потенциальным клиентам увидеть себя в числе нынешних клиентов Codeacademy.",
+          "author": "Мобарок Хоссейн"
+        }
+      },
+      "btnMore": "Подробнее"
+    },
+    "contact": {
+      "title": "Подключайтесь к ",
+      "titleSpan": "нашим клиентам",
+      "description": "Нам нравится общаться с нашими клиентами, чтобы узнать об их опыте и том, как мы можем улучшить свою работу.",
+      "slides": {
+        "What is Spectre?": {
+          "title": "What is Spectre?",
+          "description": "1"
+        },
+        "How does it work?": {
+          "title": "How does it work?",
+          "description": "2"
+        },
+        "What is blockchain technology and how does it work on Spectre?": {
+          "title": "What is blockchain technology and how does it work on Spectre?",
+          "description": "3"
+        },
+        "What are the benefits of using on Spectre?": {
+          "title": "What are the benefits of using on Spectre?",
+          "description": "4"
+        },
+        "How do I get started on Spectre?": {
+          "title": "How do I get started on Spectre?",
+          "description": "5"
+        }
+      },
+      "btnFAQ": "Access our FAQ"
+    },
+    "faq": {
+      "title": " задаваемые вопросы",
+      "titleSpan": "часто",
+      "description": "Привет! У вас есть вопросы? У нас есть ответы. Загляните на нашу страницу с часто задаваемыми вопросами для всех деталей. Все еще не удовлетворены? Свяжитесь с нами.",
+      "faqList": {
+        "question1": {
+          "title": "что делает этот инструмент?",
+          "description": "Основные преимущества онлайн-торговли заключаются в том, что она позволяет управлять своими сделками в удобное для вас время."
+        },
+        "question2": {
+          "title": "каковы недостатки онлайн-торговли?",
+          "description": "Вам не нужно беспокоиться, интерфейс удобен для пользователей. Любой может использовать его без проблем. Наше руководство пользователя поможет вам решить вашу проблему."
+        },
+        "question3": {
+          "title": "является ли онлайн-торговля безопасной?",
+          "description": "Основные преимущества онлайн-торговли заключаются в том, что она позволяет управлять своими сделками в удобное для вас время."
+        },
+        "question4": {
+          "title": "что такое онлайн-торговля и как она работает?",
+          "description": "Основные преимущества онлайн-торговли заключаются в том, что она позволяет управлять своими сделками в удобное для вас время."
+        },
+        "question5": {
+          "title": "какое приложение лучше всего подходит для онлайн-торговли?",
+          "description": "Основные преимущества онлайн-торговли заключаются в том, что она позволяет управлять своими сделками в удобное для вас время."
+        },
+        "question6": {
+          "title": "как создать торговый счет?",
+          "description": "Основные преимущества онлайн-торговли заключаются в том, что она позволяет управлять своими сделками в удобное для вас время."
+        }
+      }
+    },
+    "how-it-works": {
+      "title": "How",
+      "titleSpan": " it works?",
+      "description": ""
+    }
+  }
+}
