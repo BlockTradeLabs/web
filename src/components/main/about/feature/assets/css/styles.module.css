@@ -10,7 +10,6 @@
 
 .feature {
   padding: 80px 0;
-  background: linear-gradient(152deg, var(--bg-trans-color) 0%, var(--bg-color) 100%);
   position: relative;
   overflow: hidden;
 }
@@ -65,7 +64,7 @@
   margin-bottom: 0px;
   font-size: 1.125rem;
   color: var(--text-color);
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 600;
   text-transform: capitalize;
 }
@@ -121,7 +120,7 @@
 
 .thumbContentTitle {
   color: var(--brand-color);
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 700;
   line-height: 32px;
   margin-bottom: 0;
@@ -140,14 +139,15 @@
   top: 5%;
   left: 71%;
   z-index: 2;
-  animation: left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
+  animation: left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite
+    alternate;
 }
 
 .shape img {
   width: 50px;
 }
 
-@media all and (min-width:576px) {
+@media all and (min-width: 576px) {
   .shape {
     top: 6%;
     left: 65%;
@@ -158,7 +158,7 @@
   }
 }
 
-@media all and (min-width:768px) {
+@media all and (min-width: 768px) {
   .container {
     flex-direction: row;
   }
@@ -194,7 +194,7 @@
 
   .shape2 {
     position: absolute;
-    content: '';
+    content: "";
     width: 570px;
     height: 92%;
     padding: 40px;
@@ -211,14 +211,18 @@
     content: "";
     height: 96%;
     width: 550px;
-    background: linear-gradient(219deg, var(--bg-grad-color-trans) 0%, var(--bg-grad-color) 100%);
+    background: linear-gradient(
+      219deg,
+      var(--bg-grad-color-trans) 0%,
+      var(--bg-grad-color) 100%
+    );
     border-bottom-left-radius: 25%;
     top: 0%;
     right: -1%;
   }
 }
 
-@media all and (min-width:992px) {
+@media all and (min-width: 992px) {
   .thumbContentTop {
     right: 0;
     top: -60px;
@@ -240,7 +244,7 @@
   }
 }
 
-@media all and (min-width:1200px) {
+@media all and (min-width: 1200px) {
   .thumbContentTop {
     padding-left: 48px;
     top: -40px;
@@ -263,8 +267,7 @@
   }
 }
 
-@media all and (min-width:1400px) {
-
+@media all and (min-width: 1400px) {
   .shape2 {
     width: 1000px;
     top: -16%;
