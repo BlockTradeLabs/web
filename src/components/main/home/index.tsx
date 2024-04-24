@@ -7,6 +7,7 @@ import FeatureSection from "./feature";
 import ServiceSection from "./service";
 import Contact from "../../../pages/main/contact";
 import Footer from "../../shared/footer";
+import PartnerSlider from "./partnerSlider";
 
 const HomeContainer = () => {
   return (
@@ -17,6 +18,7 @@ const HomeContainer = () => {
         <ThemeSwitcher />
         <IntroSection />
         <AboutSection />
+        <PartnerSlider />
         <FeatureSection />
         <ServiceSection />
         <Contact />
