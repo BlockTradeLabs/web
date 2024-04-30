@@ -30,7 +30,7 @@
 .planTop h3 span {
   text-transform: capitalize;
   font-size: 1.125rem;
-  font-family: 'Open Sans';
+  font-family: var(--font-family-secondary);
   color: var(--text-color-4);
 }
 
@@ -55,7 +55,7 @@
   transition: all 0.3s ease-out;
   width: 100%;
   border: 1px solid var(--brand-color);
-  font-family: 'Open Sans';
+  font-family: var(--font-family-secondary);
   padding: 0.75rem 1rem;
   border-radius: 8px;
   text-align: center;
@@ -68,11 +68,11 @@
 
 .planItem.active .btnChoose {
   background-color: var(--brand-color);
-  color: #0C263A;
+  color: #0c263a;
 }
 
 .btnChoose:hover {
-  color: #0C263A;
+  color: #0c263a;
   background: var(--brand-color);
 }
 
@@ -89,7 +89,6 @@
   width: 50px;
   z-index: -10;
 }
-
 
 .planItem.active .btnChoose:hover::after {
   left: 120%;

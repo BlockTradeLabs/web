@@ -1,7 +1,8 @@
 .item {
   background-color: var(--wh-color);
   border: 2px solid transparent;
-  box-shadow: 0px 16px 48px 0px rgba(6, 35, 63, 0.03), 0px -16px 48px 0px rgba(6, 35, 63, 0.03);
+  box-shadow: 0px 16px 48px 0px rgba(6, 35, 63, 0.03),
+    0px -16px 48px 0px rgba(6, 35, 63, 0.03);
   border-radius: 16px;
   transition: border 0.5s ease;
 
@@ -23,7 +24,8 @@
   height: auto;
 }
 
-.content {}
+.content {
+}
 
 .meta {
   margin: 15px 0;
@@ -51,7 +53,7 @@
 .description {
   padding-bottom: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid #E6EDFB;
+  border-bottom: 1px solid #e6edfb;
 }
 
 .author {
@@ -60,16 +62,19 @@
   gap: 10px;
 }
 
-.authorThumb {}
+.authorThumb {
+}
 
-.authorThumb img {}
+.authorThumb img {
+}
 
-.authorContent {}
+.authorContent {
+}
 
 .authorContent h6 {
   font-size: 1rem;
   font-weight: 600;
-  font-family: 'Open Sans';
+  font-family: var(--font-family-secondary);
   text-transform: capitalize;
   margin: 0;
 }

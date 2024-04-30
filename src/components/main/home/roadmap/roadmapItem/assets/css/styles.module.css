@@ -12,13 +12,13 @@
 
 .header span {
   font-size: calc(1.325rem + 0.7714285714vw);
-  font-family: "Anek Telugu";
+  font-family: var(--font-family-primary);
   font-weight: 600;
   color: var(--brand-color);
   margin-block-start: -10px;
 }
 
-@media all and (min-width:768px) {
+@media all and (min-width: 768px) {
   .roadmapItem {
     padding: 40px;
   }

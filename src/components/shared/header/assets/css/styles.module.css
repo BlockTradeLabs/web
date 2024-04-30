@@ -22,7 +22,6 @@
   /* background-color: var(--wh-color); */
   /* box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.3); */
   z-index: 1000;
-
 }
 
 .container {
@@ -38,7 +37,7 @@
 
 .btnJoin {
   font-size: 1rem;
-  font-family: 'Open Sans';
+  font-family: var(--font-family-secondary);
   font-weight: 500;
   line-height: 1;
   text-transform: capitalize;
@@ -75,13 +74,13 @@
   transform: translateY(-2px);
 }
 
-@media all and (min-width:576px) {
+@media all and (min-width: 576px) {
   .logo img {
     width: 180px;
   }
 }
 
-@media all and (min-width:992px) {
+@media all and (min-width: 992px) {
   .container {
     padding: 26px 0;
   }

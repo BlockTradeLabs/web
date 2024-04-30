@@ -27,7 +27,7 @@
 }
 
 .title {
-  font-family: "Open Sans";
+  font-family: var(--font-family-secondary);
   color: var(--title-color);
   text-transform: capitalize;
 }
