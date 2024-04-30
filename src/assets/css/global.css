@@ -3,6 +3,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
 /* Anek Telugu */
 @import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300;400;500;600;700&display=swap");
+/* Montserrat */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* Abel */
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* Jersey 25 */
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Jersey+25&family=Montserrat:ital,wght@0,770;1,770&display=swap");
+/* Titillium Web */
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Jersey+25&family=Montserrat:ital,wght@0,770;1,770&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
 
 :root {
   --bg-white: #ffffff;
@@ -10,7 +18,7 @@
   --text-color: #6b777f;
   --title-color: #0c263a;
   --secondary-color: #0a4fd5;
-  --brand-color: #6a8bac;
+  --brand-color: #00a651;
   --social-border-color-2: #eceff2;
   --wh-color: #ffffff;
   --tertiary-color: #e0faf2;
@@ -30,7 +38,7 @@
   --service-item-border-color: #fff;
   --bg-shape-color: #b8cfeb;
   --font-family-secondary: "Open Sans", sans-serif;
-  --font-family-primary: "Anek Telugu", sans-serif;
+  --font-family-primary: "Titillium Web", sans-serif;
 }
 
 body {

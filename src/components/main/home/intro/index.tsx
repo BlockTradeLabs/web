@@ -38,12 +38,6 @@ const IntroSection = () => {
   return (
     <>
       <section className={`${styles.intro}`}>
-        <div className={`d-none d-lg-block ${styles.bg}`}>
-          <img
-            src={currentTheme === "light" ? bgLight : bgDark}
-            alt="bg image"
-          />
-        </div>
         <div className="container">
           <div className={styles.container}>
             <CommonAnimation

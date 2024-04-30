@@ -5,7 +5,6 @@
 .serviceItem {
   height: 100%;
   margin: auto;
-  background: linear-gradient(152deg, var(--bg-trans-color) 0%, var(--bg-color) 100%);
   border: 2px solid var(--service-item-border-color);
   border-radius: 16px;
   padding: 35px 15px;
@@ -42,7 +41,7 @@
   line-height: 1.625rem;
 }
 
-@media all and (min-width:768px) {
+@media all and (min-width: 768px) {
   .serviceItem {
     padding: 52px 32px;
   }

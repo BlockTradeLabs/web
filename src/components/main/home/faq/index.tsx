@@ -23,9 +23,6 @@ const FAQSection = () => {
     <>
       <section className={styles.faq}>
         <div className="container">
-          <div className={styles.shape1}>
-            <img src={shapeImg} alt="shape image" />
-          </div>
           <header className={styles.header}>
             <h2 className={styles.title}>
               <span>{t("home.faq.titleSpan")}</span>
