@@ -26,7 +26,7 @@ export default function PartnerSlider() {
   return (
     <div className={`${styles.partnerSlider} mx-auto`}>
       <div className={`container ${styles.container}`}>
-        <h2 className={`text-center mt-2 mb-5`}>Our Partners</h2>
+        <h2 className={`text-center mt-3 mb-5`}>Our Partners</h2>
 
         <Swiper
           slidesPerView={1}

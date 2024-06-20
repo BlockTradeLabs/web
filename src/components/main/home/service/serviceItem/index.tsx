@@ -23,14 +23,19 @@ const ServiceItem: React.FC<ServiceItemProps> = ({ service }) => {
         <Link to="services" className={styles.serviceLink}>
           <CommonAnimation variants={variants} className={styles.serviceItem}>
             <div className={styles.serviceImg}>
-              <img
-                src={
-                  currentTheme === "dark"
-                    ? service.images.dark
-                    : service.images.light
-                }
-                alt="service image"
-              />
+              <div>
+                <img
+                  src={
+                    currentTheme === "dark"
+                      ? service.images.dark
+                      : service.images.light
+                  }
+                  alt="service image"
+                  style={{
+                    width: `100px`,
+                  }}
+                />
+              </div>
             </div>
             <h5 className={styles.serviceTitle}>
               {t(`home.service.serviceList.${service.title}.title`)}

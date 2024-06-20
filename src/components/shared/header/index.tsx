@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import logoDark from "../../../assets/images/logo_sm.png";
-import logoLight from "../../../assets/images/logo_sm.png";
+import logoDark from "../../../assets/images/logo_agu.png";
+import logoLight from "../../../assets/images/logo_agu.png";
 import styles from "./assets/css/styles.module.css";
 import Navigation from "../navigation";
 import { useTranslation } from "react-i18next";

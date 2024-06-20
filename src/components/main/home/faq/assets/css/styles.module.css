@@ -9,7 +9,6 @@
 }
 
 .faq {
-  background: linear-gradient(152deg, var(--bg-trans-color) 0%, var(--bg-color) 100%);
   padding: 80px 0;
   position: relative;
   overflow: hidden;
@@ -55,14 +54,14 @@
   max-width: 445px;
 }
 
-@media all and (min-width:576px) {
+@media all and (min-width: 576px) {
   .shape1 {
     top: 3%;
     left: 7%;
   }
 }
 
-@media all and (min-width:768px) {
+@media all and (min-width: 768px) {
   .shape1 {
     left: 2%;
     left: 1%;
@@ -73,7 +72,7 @@
   }
 }
 
-@media all and (min-width:992px) {
+@media all and (min-width: 992px) {
   .faq {
     padding: 120px 0;
   }
@@ -97,7 +96,7 @@
   }
 }
 
-@media all and (min-width:1200px) {
+@media all and (min-width: 1200px) {
   .shape1 {
     top: 5%;
     left: 5%;
@@ -108,7 +107,7 @@
   }
 }
 
-@media all and (min-width:1400px) {
+@media all and (min-width: 1400px) {
   .shape1 {
     top: 8%;
     left: 5%;

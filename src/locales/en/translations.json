@@ -29,14 +29,15 @@
       "thumbDescriptionTop": "consulting experience",
       "thumbTitleBottom": "k+",
       "thumbDescriptionBottom": "satisfied customers",
-      "contentTitle": " The Future of On-Chain Trading",
-      "contentTitleSpan": "Introducing Spectre:",
+      "contentTitle1": "The Future of ",
+      "contentTitleSpan": "On-Chain",
+      "contentTitle2": " Trading",
       "contentDescription": "Spectre is a cutting-edge DeFi platform designed to democratize trading by providing unparalleled access to on-chain leverage, liquidity, and comprehensive education. At its core, Spectre is about empowering traders through innovation and transparency, ensuring everyone has the tools to succeed in the fast-evolving financial landscape. We're not just a platform; we're a revolution in how the world trades, making financial markets accessible and equitable for all.",
       "btnMore": "explore more"
     },
     "feature": {
-      "contentTitleSpan": "Prop Trading for Traders, ",
-      "contentTitle": "By Traders.",
+      "contentTitleSpan": "Prop Trading ",
+      "contentTitle": "for Traders, By Traders.",
       "contentDescription": "",
       "contentNavList": {
         "navItem1": "Integrated Learning and Community Platform",

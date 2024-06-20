@@ -2,12 +2,12 @@ export const updateThemeVariables = (theme: string) => {
   const root = document.documentElement;
 
   const darkThemeStyles = {
-    "--body-color": "#030721",
+    "--body-color": "#090B19",
     "--text-color": "rgb(255,255,255,0.6)",
     "--title-color": "#FFFFFF",
-    "--secondary-color": "#6a8bac",
+    "--secondary-color": "#00A2D5",
     "--social-border-color-2": "rgb(255,255,255,0.08)",
-    "--wh-color": "#191f3e",
+    "--wh-color": "rgb(255, 255, 255, 0.15)",
     "--tertiary-color": "#6a8bac10",
     "--partner-color": "#6a8bac22",
     "--floating-content-bg-color": "#191f3e",
@@ -25,7 +25,7 @@ export const updateThemeVariables = (theme: string) => {
     "--bg-shape-color-trans-2": "rgba(255,255,255,0.04)",
     "--border-color-11": "rgba(255,255,255,0.1)",
     "--text-color-4": "#B0B3BF",
-    "--bg-team-content": "#3D516F",
+    "--bg-team-content": "#00a651",
     "--bg-shape-color": "rgba(213,229,249,0.08)",
     "--bg-shape-color-trans": "rgba(255,255,255,0.02)",
   };

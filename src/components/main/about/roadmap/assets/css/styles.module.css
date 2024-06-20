@@ -9,7 +9,6 @@
 }
 
 .roadmap {
-  background: linear-gradient(152deg, var(--bg-trans-color) 0%, var(--bg-color) 100%);
   padding: 80px 0;
   position: relative;
   overflow: hidden;

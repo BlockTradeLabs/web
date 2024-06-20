@@ -25,13 +25,13 @@
 }
 
 .title {
-  font-family: 'Open Sans';
+  font-family: var(--font-family-secondary);
   color: var(--title-color);
   text-transform: capitalize;
 }
 
-@media all and (min-width:576px) {
-  .memberItem:nth-child(n+1) {
+@media all and (min-width: 576px) {
+  .memberItem:nth-child(n + 1) {
     margin-left: 0.75rem;
   }
 

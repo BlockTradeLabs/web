@@ -9,7 +9,6 @@
 }
 
 .roadmap {
-  background: linear-gradient(152deg, var(--bg-trans-color) 0%, var(--bg-color) 100%);
   padding: 80px 0;
   position: relative;
   overflow: hidden;
@@ -52,23 +51,30 @@
 
 .roadmapList div:nth-child(2n-1) {
   margin-left: auto;
-  background: linear-gradient(91deg, var(--bg-grad-color-3) 0%, var(--bg-grad-color-trans-3) 100%);
+  background: linear-gradient(
+    91deg,
+    var(--bg-grad-color-3) 0%,
+    var(--bg-grad-color-trans-3) 100%
+  );
 }
 
 .roadmapList div:nth-child(2n) {
   margin-right: auto;
-  background: linear-gradient(91deg, var(--bg-grad-color-trans-3) 0%, var(--bg-grad-color-3) 100%);
+  background: linear-gradient(
+    91deg,
+    var(--bg-grad-color-trans-3) 0%,
+    var(--bg-grad-color-3) 100%
+  );
 }
 
-
-@media all and (min-width:576px) {
+@media all and (min-width: 576px) {
   .shape1 {
     top: 3%;
     left: 7%;
   }
 }
 
-@media all and (min-width:768px) {
+@media all and (min-width: 768px) {
   .shape1 {
     left: 2%;
     left: 1%;
@@ -101,7 +107,11 @@
     width: 880px;
     top: 1%;
     left: 2%;
-    background: linear-gradient(109deg, var(--bg-shape-color-trans-2) 0%, var(--bg-shape-color-2) 100%);
+    background: linear-gradient(
+      109deg,
+      var(--bg-shape-color-trans-2) 0%,
+      var(--bg-shape-color-2) 100%
+    );
     border-radius: 100px 213px 100px 100px;
   }
 
@@ -133,15 +143,13 @@
     transform: translateX(-50%);
   }
 
-
   .roadmapList div:nth-child(2n-1),
   .roadmapList div:nth-child(2n) {
     width: calc(50% - 3rem);
   }
-
 }
 
-@media all and (min-width:992px) {
+@media all and (min-width: 992px) {
   .roadmap {
     padding: 120px 0;
   }
@@ -157,7 +165,7 @@
   }
 }
 
-@media all and (min-width:1200px) {
+@media all and (min-width: 1200px) {
   .shape1 {
     top: 5%;
     left: 5%;
@@ -172,7 +180,7 @@
   }
 }
 
-@media all and (min-width:1400px) {
+@media all and (min-width: 1400px) {
   .shape1 {
     top: 8%;
     left: 5%;

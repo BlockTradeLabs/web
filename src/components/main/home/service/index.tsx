@@ -7,7 +7,10 @@ const ServiceSection = () => {
   const { t } = useTranslation();
   return (
     <>
-      <section className={styles.service}>
+      <section
+        className={styles.service}
+        style={{ backgroundColor: `#0a1222` }}
+      >
         <div className="container">
           <header className={styles.header}>
             <h2 className={styles.title}>

@@ -11,7 +11,7 @@
   color: var(--title-color);
   padding-bottom: 5px;
   text-transform: capitalize;
-  font-family: 'Anek Telugu';
+  font-family: var(--font-family-primary);
   font-weight: 500;
   font-size: 1.25rem;
   transition: color 0.5s ease;
@@ -37,7 +37,7 @@
   max-height: 0;
   margin-bottom: 15px;
   overflow: hidden;
-  transition: max-height .5s ease-in-out;
+  transition: max-height 0.5s ease-in-out;
 }
 
 .item.active .description {

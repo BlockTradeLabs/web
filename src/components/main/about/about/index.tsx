@@ -23,21 +23,6 @@ const AboutSection = () => {
       <div className={`container ${styles.container}`}>
         <div className="col col-12 col-lg-6">
           <div className={styles.thumb}>
-            <CommonAnimation
-              variants={variants1}
-              className={`${styles.thumbContent} ${styles.thumbTopLeft}`}
-            >
-              <h3 className={styles.thumbTitle}>
-                <span>
-                  <CountUp enableScrollSpy={true} duration={3} end={10} />
-                </span>
-                {t("home.about.thumbTitleTop")}
-              </h3>
-              <p className={styles.thumbDescription}>
-                {t("home.about.thumbDescriptionTop")}
-              </p>
-            </CommonAnimation>
-
             <CommonAnimation variants={variants1} className={styles.thumbImg}>
               <img src={thumbImg} alt="thumb image" />
             </CommonAnimation>
