@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-import shapeImg from "../roadmap/assets/images/shape-1.png";
 import styles from "./assets/css/styles.module.css";
 import FaqItem from "./faqItem";
 import thumbImg from "./assets/images/thumb.png";

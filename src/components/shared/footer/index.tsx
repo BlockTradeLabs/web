@@ -137,7 +137,8 @@ const Footer: React.FC = () => {
         </div>
         <div className="text-center mt-4">
           <p className="mb-0">
-            © 2024 Spectre Finance. Pioneering Tomorrow's Crypto Prop Trading.
+            © {currentYear} Spectre Finance. Pioneering Tomorrow's Crypto Prop
+            Trading.
           </p>
         </div>
       </div>

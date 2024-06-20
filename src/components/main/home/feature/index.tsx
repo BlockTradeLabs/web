@@ -1,7 +1,6 @@
 import styles from "./assets/css/styles.module.css";
 import shapeImg from "./assets/images/shape.png";
 import { useTranslation } from "react-i18next";
-import CountUp from "react-countup";
 import CommonAnimation from "../../../common/commonAnimation";
 import { useState } from "react";
 import { navContent } from "../../../../constants/main/home/feature";
@@ -58,36 +57,9 @@ const FeatureSection = () => {
         </div>
         <div className="col-md-6 col-lg-6">
           <div className={styles.thumb}>
-            {/* <CommonAnimation
-              variants={variants2}
-              className={styles.thumbContentTop}
-            >
-              <div className={styles.thumbContentTopImg}>
-                <img src="{content.percentageImg}" alt="thumb content image" />
-              </div>
-              <p className={styles.thumbContentDescription}>
-                {t("home.feature.thumbDescription1")}
-              </p>
-            </CommonAnimation> */}
             <CommonAnimation variants={variants2} className={styles.thumbImg}>
               <img src={content.thumbImg} alt="thumb image" />
             </CommonAnimation>
-            {/* <CommonAnimation
-              variants={variants2}
-              className={styles.thumbContentBottom}
-            >
-              <h3 className={styles.thumbContentTitle}>
-                <CountUp
-                  enableScrollSpy={true}
-                  duration={3}
-                  end={content.loanValue}
-                />
-                M
-              </h3>
-              <p className={styles.thumbContentDescription}>
-                {t("home.feature.thumbDescription2")}
-              </p>
-            </CommonAnimation> */}
           </div>
         </div>
 

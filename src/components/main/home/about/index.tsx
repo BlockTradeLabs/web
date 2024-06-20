@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import styles from "./assets/css/styles.module.css";
 import thumbImg from "./assets/images/features-agu.png";
 import { useTranslation } from "react-i18next";
-import CountUp from "react-countup";
 import CommonAnimation from "../../../common/commonAnimation";
 
 const AboutSection = () => {

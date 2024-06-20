@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import bgLight from "./assets/images/bg.png";
 import bgAgu from "./assets/images/bg-agu.png";
 import coinImg from "./assets/images/coin.png";
 import ghostImg from "./assets/images/ghosts-agu.png";
@@ -7,16 +6,11 @@ import ghostImg from "./assets/images/ghosts-agu.png";
 import { socialMediaLinks } from "../../../../constants/main/home/intro";
 import styles from "./assets/css/styles.module.css";
 import { useTranslation } from "react-i18next";
-import { useSelector } from "react-redux";
-import { RootState } from "../../../../store/configureStore";
 import CommonAnimation from "../../../common/commonAnimation";
 import { useTypingText } from "./useTypingText";
 
 const IntroSection = () => {
   const { t } = useTranslation();
-  const currentTheme = useSelector(
-    (state: RootState) => state.theme.currentTheme
-  );
 
   const variants1 = {
     hidden: { opacity: 0, x: -100 },
