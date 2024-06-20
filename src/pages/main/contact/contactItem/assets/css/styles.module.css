@@ -1,5 +1,5 @@
 .item {
-  background-color: var(--wh-color);
+  background-color: #083249;
   border: 2px solid transparent;
   box-shadow: 0px 16px 48px 0px rgba(6, 35, 63, 0.03),
     0px -16px 48px 0px rgba(6, 35, 63, 0.03);

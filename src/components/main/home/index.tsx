@@ -17,10 +17,10 @@ const HomeContainer = () => {
         <LanguageSwitcher />
         <ThemeSwitcher />
         <IntroSection />
-        <AboutSection />
         <PartnerSlider />
-        <FeatureSection />
+        <AboutSection />
         <ServiceSection />
+        <FeatureSection />
         <Contact />
         <Footer />
       </div>

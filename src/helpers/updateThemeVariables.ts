@@ -2,10 +2,10 @@ export const updateThemeVariables = (theme: string) => {
   const root = document.documentElement;
 
   const darkThemeStyles = {
-    "--body-color": "#000",
+    "--body-color": "#090B19",
     "--text-color": "rgb(255,255,255,0.6)",
     "--title-color": "#FFFFFF",
-    "--secondary-color": "#00a651",
+    "--secondary-color": "#00A2D5",
     "--social-border-color-2": "rgb(255,255,255,0.08)",
     "--wh-color": "rgb(255, 255, 255, 0.15)",
     "--tertiary-color": "#6a8bac10",

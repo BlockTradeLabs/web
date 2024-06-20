@@ -13,7 +13,7 @@ const ContactItem: React.FC<ItemProps> = ({ item }) => {
           <div className={styles.contactReference}>
             <div className={styles.authorContent}>
               <span className="text-capitalize">
-                {t(`home.contact.slides.${item.contactReference}.description`)}
+                {t(`${item.description}`)}
               </span>
             </div>
           </div>

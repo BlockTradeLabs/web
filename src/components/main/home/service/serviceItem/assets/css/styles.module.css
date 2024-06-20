@@ -5,6 +5,7 @@
 .serviceItem {
   height: 100%;
   margin: auto;
+  background-color: #083249;
   border: 2px solid var(--service-item-border-color);
   border-radius: 16px;
   padding: 35px 15px;
@@ -28,7 +29,7 @@
 
 .serviceImg img {
   padding: 25px;
-  background-color: var(--wh-color);
+  background-color: #fff;
   box-shadow: 0px 8px 24px rgba(12, 52, 91, 0.04);
 }
 

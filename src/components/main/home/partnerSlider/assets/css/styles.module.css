@@ -7,10 +7,11 @@
 .partnerSlider::after {
   position: absolute;
   content: "";
-  width: calc(100vw - 20px);
-  left: 8px;
+  width: calc(100vw - 10px);
+  /* left: 8px; */
+  /* width: 100vw; */
   top: 0px;
-  height: 200px;
+  height: 230px;
   background-color: var(--partner-color);
   z-index: -999;
   border-radius: 8px;

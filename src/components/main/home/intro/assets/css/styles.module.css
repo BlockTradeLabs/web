@@ -174,7 +174,7 @@
 .socialLinkItem a {
   font-size: 18px;
   background-color: transparent;
-  border: 1px solid var(--social-border-color-2);
+  border: 1px solid var(--title-color);
   padding: 10px;
   border-radius: 20px;
   transition: all 0.5s ease;

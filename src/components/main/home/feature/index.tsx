@@ -58,7 +58,7 @@ const FeatureSection = () => {
         </div>
         <div className="col-md-6 col-lg-6">
           <div className={styles.thumb}>
-            <CommonAnimation
+            {/* <CommonAnimation
               variants={variants2}
               className={styles.thumbContentTop}
             >
@@ -68,11 +68,11 @@ const FeatureSection = () => {
               <p className={styles.thumbContentDescription}>
                 {t("home.feature.thumbDescription1")}
               </p>
-            </CommonAnimation>
+            </CommonAnimation> */}
             <CommonAnimation variants={variants2} className={styles.thumbImg}>
               <img src={content.thumbImg} alt="thumb image" />
             </CommonAnimation>
-            <CommonAnimation
+            {/* <CommonAnimation
               variants={variants2}
               className={styles.thumbContentBottom}
             >
@@ -87,7 +87,7 @@ const FeatureSection = () => {
               <p className={styles.thumbContentDescription}>
                 {t("home.feature.thumbDescription2")}
               </p>
-            </CommonAnimation>
+            </CommonAnimation> */}
           </div>
         </div>
 

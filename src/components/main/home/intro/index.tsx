@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import bgLight from "./assets/images/bg.png";
-import bgDark from "./assets/images/bg-dark.png";
+import bgAgu from "./assets/images/bg-agu.png";
 import coinImg from "./assets/images/coin.png";
-import ghostImg from "./assets/images/ghost_2.png";
-import backgroundImg from "./assets/images/candlestick-graph-1.png";
+import ghostImg from "./assets/images/ghosts-agu.png";
+// import backgroundImg from "./assets/images/candlestick-graph-1.png";
 import { socialMediaLinks } from "../../../../constants/main/home/intro";
 import styles from "./assets/css/styles.module.css";
 import { useTranslation } from "react-i18next";
@@ -37,9 +37,29 @@ const IntroSection = () => {
 
   return (
     <>
-      <section className={`${styles.intro}`}>
-        <div className="container">
+      <section
+        style={{
+          // boxShadow: `inset 0px -20px 30px 0px #0a0b19`,
+          backgroundImage: `url(${bgAgu})`,
+          backgroundPosition: `center`,
+          backgroundSize: `cover`,
+          backgroundRepeat: `no-repeat`,
+        }}
+        className={`${styles.intro}`}
+      >
+        <div className="container" style={{ height: `100vh` }}>
           <div className={styles.container}>
+            <div
+              className={`col col-12 col-md-5 col-lg-6 ${styles.ghostImage} ${styles.hero}`}
+              style={{
+                backgroundImage: `url(${ghostImg})`,
+                backgroundPosition: `center`,
+                backgroundSize: `contain`,
+                backgroundRepeat: `no-repeat`,
+              }}
+            >
+              {/* <img src={ghostImg} alt="hero image" /> */}
+            </div>
             <CommonAnimation
               variants={variants1}
               className={`col col-12 col-md-7 ${styles.content}`}
@@ -80,17 +100,6 @@ const IntroSection = () => {
                 </ul>
               </div>
             </CommonAnimation>
-            <div
-              className={`col col-12 col-md-5 col-lg-6 ${styles.ghostImage} ${styles.hero}`}
-              style={{
-                backgroundImage: `url(${backgroundImg})`,
-                backgroundPosition: `center`,
-                backgroundSize: `contain`,
-                backgroundRepeat: `no-repeat`,
-              }}
-            >
-              <img src={ghostImg} alt="hero image" />
-            </div>
           </div>
         </div>
       </section>
